@@ -1,0 +1,32 @@
+<doctype HTML>
+    <html>
+        <head>
+            <title>Labcontactform</title>
+        </head>
+        <body>
+            <div id="contact">
+                <form action="fakesite.fake" method="post">
+                    First Name:<input type="text" name="firstname"/><br/>
+                    <br/>
+                    Last Name:<input type="text" name="lastname"/><br/>
+                    <br/>
+                    Email:<input type="text" name="email"/><br/> 
+                    <br/>
+                    Type of license: <input type="radio" name="business" value="business" checked/>Business <input type="radio" name="personal" value="personal"/>Personal<br/>
+                    <br/>
+                    Reason  <select name="select element">
+                        <option value="1">Select Reason</option>
+                        <option value="2">Software Support</option>
+                        <option value="3">Harware Support</option>
+                        <option value="4">Request Information</option>
+                        </select><br/>
+                        <br/>
+                    Additional Information:<textarea name="addinfo"></textarea><br/>
+                    <br/>
+                    I have read the terms of service<input type="checkbox" name="cya" value="agree"/><br/>
+                    <br/>
+                    <input type="submit" name="submission" value="Submit"/>
+                </form>
+            </div>
+        </body>
+    </html>
