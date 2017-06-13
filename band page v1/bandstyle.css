@@ -1,3 +1,7 @@
+@font-face{
+    font-family: 'ostr';
+    src: url(OstrichSans-Medium.otf)
+}
 th{
     font-weight: bold
 }
