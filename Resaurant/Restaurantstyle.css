@@ -1,5 +1,12 @@
+@font-face{
+font-family: 'custom';
+src: url(FanwoodText.otf)    
+}
 #header{
     text-align: center;
+}
+#title{
+    font-family: 'custom'; color: navy;
 }
 footer{
     text-align: center;
@@ -8,5 +15,6 @@ a:hover{
     color: red;
     font-weight: bold;
 }
+#content{
     background-color: wheat;  
     }
