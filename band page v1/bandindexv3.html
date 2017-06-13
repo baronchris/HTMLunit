@@ -1,18 +1,24 @@
 <DOCTYPE html>
     <html>
         <head>
-             <title> Album page V1 </title>
+             <title> Album page V3 </title>
              <style>
                  style, th, td
                  {
                      border: 1px solid black;
                  }
+                 .heading{
+                     text-align: center
+                 }
             </style>
+             <link href="bandstyle.css" rel="stylesheet" type="text/CSS"/>
         </head>
         <Body>
-            <h1> ... And Out Come The Wolves </h1>
-            <h2><a href="http:\\rancidrancid.com" target="_blank">Rancid</a></h2>
-            <h3> 1995 </h3>
+            <h1 class="heading"> ... And Out Come The Wolves </h1>
+            <img src="images\cover.jpg"><br/>
+            <br/>
+            <h2 class="heading"><a href="http:\\rancidrancid.com" target="_blank">Rancid</a></h2>
+            <h3 class="heading"> 1995 </h3><hr/>
             <div id="description"> 
                 <p> An important third wave punk album best known for the singles "Ruby Soho" and "Time Bomb." </p>
             </div>
@@ -25,6 +31,7 @@
             </ul>
             <table>
                 <table border="1" width="100%">
+                    <caption style="text-align:center">Track List</caption>
                     <tr>
                         <th>Track #</th>
                         <th>Title</th>
