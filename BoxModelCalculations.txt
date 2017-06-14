@@ -1,0 +1,18 @@
+#div1 {
+height: 150px;
+width: 400px;
+margin: 20px;
+border: 1px solid red;
+padding: 10px;
+}
+Total width =400+20 (left margin) + 20 (right margin) +2 (border each side) + 20 (padding each side)
+=400+20+20+2+20=462px
+Total height = 150+20(top margin) +20 (bottom margin)+1 (top border)+1*bottom border)+20(top and bottom padding)  
+=150+20+20+1+1+10+10= 212
+Browser does not count margin so:
+The browser width is 40px less (sum of left and right margin width) =422 
+or by re-adding everything:
+400+10 (left padding) +10 (right padding) +2 (borders) =422
+
+Browser height = total height – combined margin height = 212-40=172
+
