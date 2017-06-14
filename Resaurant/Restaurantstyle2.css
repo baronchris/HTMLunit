@@ -11,13 +11,18 @@ src: url(FanwoodText.otf)
 footer{
     text-align: center;
 }
-a:link{
-
+a:visited{
+    color: red; text-decoration: none;
 }
+a:link{
+     text-decoration: none;
+                }
 a:hover{
     color: green;
     font-weight: bold; text-decoration: underline;
+    background-color: silver;
 }
+
 #content{
     background-color: wheat;  
     }
