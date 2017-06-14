@@ -1,0 +1,92 @@
+<DOCTYPE html>
+    <html>
+        <head>
+             <title> Album page V5 </title>
+             <style>
+                 @font-face {
+                    font-family: 'newfont';
+                    src: url(OstrichSans-Medium.otf);
+                }
+                 table, th, td
+                 {
+                     border: 1px solid black; 
+                     border-collapse: collapse;
+                     font-style: italic;
+                 }
+                 tbody tr:nth-child(even){
+                     background-color: silver;
+                 }
+                 tbody tr:nth-child(odd){
+                     background-color: turquoise;
+                 }
+                 .heading{
+                     text-align: center
+                 }
+                 #cover{
+                     margin: auto;
+                     background: url(cover.jpg); 
+                     background-position: center; 
+                     background-repeat:no-repeat;
+                     background-attachment: scroll;
+                     float:center;  
+                     height:350px;
+                     width: 350px;
+                 }
+                 li{
+                     font-style:italic;
+                 }
+                 a:hover{
+                     color: green; text-decoration:underline; background-color: silver;  
+                     }
+                a:link{
+                    text-decoration: none;
+                }
+            </style>
+            <link href="bandstyle2.css" rel="stylesheet" type="text/CSS"/>
+        </head>
+        <Body>
+            <h1 class="heading"> ... And Out Come The Wolves </h1>
+            <div id="cover">
+            <br/>
+            </div>
+            <br/>
+            <h2 class="heading"><a href="http:\\rancidrancid.com" target="_blank">Rancid</a></h2>
+            <h3 class="heading"> 1995 </h3><hr/>
+            <div id="description"> 
+                <p> An important third wave punk album best known for the singles "Ruby Soho" and "Time Bomb." </p>
+            </div>
+            <div style="font-family: newfont; font-size:20pt">
+            <h2> Band Members </h2>
+            <ul style="list-style-type: disc; font-family:'Times New Roman'; font-size:14pt">
+                <li> Tim Armstrong: Guitar, vocals</li>
+                <li> Lars Frederiksen: Guitar, vocals</li>
+                <li> Matt Freeman: Bass, vocals</li>
+                <li> Brett Reed: Drums </li>
+            </ul>
+            </div>
+            <table>
+                <table border="1" width="100%">
+                    <caption style="text-align:center">Track List</caption>
+                    <tr>
+                        <th>Track #</th>
+                        <th>Title</th>
+                        <th>Lenght</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Maxwell Murder</td>
+                        <td>3:00</td>
+                    </tr> 
+                    <tr>
+                        <td>2</td>
+                        <td>Roots Radical</td>
+                        <td>2:43</td>
+                    </tr> 
+                     <tr>
+                        <td>3</td>
+                        <td>The 11<sup>th</sup> hour</td>
+                        <td>1:57</td>
+                    </tr> 
+                </table>
+        </Body>
+    </html>
