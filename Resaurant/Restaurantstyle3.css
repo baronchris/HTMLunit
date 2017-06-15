@@ -5,8 +5,11 @@ src: url(FanwoodText.otf)
 #header{
     text-align: center;
 }
-#title{
+.title{
     font-family: 'custom'; color: navy;
+}
+#navbarcustom{
+    font-size: 14pt;
 }
 footer{
     text-align: center;
@@ -36,4 +39,10 @@ body{
 hr{
     color: navy;
     width: 10px;
+}
+li
+{padding-left:10px;
+padding-right:10px; 
+margin-left: 10px;
+margin-right: 10px;
 }
