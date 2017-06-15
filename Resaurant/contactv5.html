@@ -1,0 +1,61 @@
+<doctype HTML>
+    <html>
+        <head>
+            <title>Contact Us</title>
+             <link href="restaurantstyle3.css" rel="stylesheet" type="text/CSS"/>
+             <style>
+                 #content{
+                     text-align: center
+                 }
+                 Input{
+                     background-color: lightgray;
+                 }
+                 textarea{
+                     background-color: lightgrey;
+                 }
+                 #activelink{
+                     color: purple;
+                 }
+            </style>
+        </head>
+        <body>
+          <div id="header">
+            <H1><span id="title">Olaf's Mead Hall and Lounge</span></H1><hr/>
+            <p><a href="indexv5.html">Home</a>  <a href="menuv5.html">Menu</a>  <a href="contactv5.html" ID="activelink">Contact Us</a></p><hr/>
+            </div><hr/>
+             <div id="content">
+                 <br/>
+                 <form action="contactedus.html" method="POST" style="font-weight:bold">
+                    Name:<input type="text" name="name"><br/>
+                    <br/>
+                    Email:<input type="text" name="email"><br/>
+                    <br/>
+                    Phone:<input type="text" name="phone" value="xxx-xxx-xxxx"><br/>
+                    <br/>
+                    Reason for Inquiry: <select name="select element">
+                        <option value="1">Catering</option>
+                        <option value="2">Private party</option>
+                        <option value="3">Feedback</option>
+                        <option value="4">Other</option>
+                        </select><br/>
+                        <br/>
+                        Additional Information:<br/>
+                        <textarea style="background-color:lightgray">
+                        </textarea><br/>
+                        <br/>
+                        Have you been to the Restaurant? <input type="radio" name="no" value="no" checked/>No
+                        <input type="radio" name="yes" value="yes">Yes<br/>
+                        <br/>
+                        Best day to contact you M<input type="checkbox" name="m"> T<input type="checkbox" name="T">
+                        W<input type="checkbox" name="W"> Th<input type="checkbox" name="Th"> F<input type="checkbox" name="F"><br/>
+                        <br/>
+                        <Input type="submit" name="submit" value="Contact Us!">
+                        <br/>
+            </div><hr/>
+            <footer>
+                <p> 926 Lutefisk Rd <br>
+                Trondheim, IN 47203<br>
+                Phone:555-5555</p>
+            </footer>
+        </body>
+    </html>
