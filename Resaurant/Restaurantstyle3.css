@@ -10,7 +10,12 @@ src: url(FanwoodText.otf)
 }
 #navbarcustom{
     font-size: 14pt;
+    text-align: center;
 }
+ul{
+    text-align: center;
+}
+
 footer{
     text-align: center;
 }
@@ -28,17 +33,12 @@ a:hover{
 body{
                 background-color: wheat;
             }
-
-#content{
-    background-color: wheat;  
-    }
-    a:active{
+a:active{
         font-weight: Bold;
         font-size: 14pt;
     }
 hr{
     color: navy;
-    width: 10px;
 }
 li
 {padding-left:10px;
@@ -46,3 +46,8 @@ padding-right:10px;
 margin-left: 10px;
 margin-right: 10px;
 }
+#activelink{
+                     color: purple;
+                 }
+#jumbotron{text-align: center;
+background-color: silver;}

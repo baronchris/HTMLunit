@@ -1147,7 +1147,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid navy;
 }
 .sr-only {
   position: absolute;
@@ -2274,11 +2274,9 @@ th {
   padding: 8px;
   line-height: 1.42857143;
   vertical-align: top;
-  border-top: 1px solid #ddd;
 }
 .table > thead > tr > th {
   vertical-align: bottom;
-  border-bottom: 2px solid #ddd;
 }
 .table > caption + thead > tr:first-child > th,
 .table > colgroup + thead > tr:first-child > th,
@@ -4960,7 +4958,7 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  background-color: silver;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -4996,6 +4994,7 @@ a.badge:focus {
   .jumbotron h1,
   .jumbotron .h1 {
     font-size: 63px;
+    text-align: center;
   }
 }
 .thumbnail {
