@@ -1,0 +1,51 @@
+@font-face{
+font-family: 'custom';
+src: url(FanwoodText.otf)    
+}
+#header{
+    text-align: center;
+}
+.title{
+    font-family: 'custom'; color: navy;
+}
+#navbarcustom{
+    font-size: 14pt;
+    text-align: center;
+}
+ul{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+a:visited{
+    color: red; text-decoration: none;
+}
+a:link{
+     text-decoration: none;
+                }
+a:hover{
+    color: green;
+    font-weight: bold; text-decoration: underline;
+    background-color: silver;
+}
+body{
+                background-color: wheat;
+            }
+a:active{
+        font-weight: Bold;
+        font-size: 14pt;
+    }
+hr{
+    color: navy;
+}
+
+#activelink{
+                     color: purple;
+                 }
+#jumbotron{text-align: center;
+background-color: silver;}
+#nothome{
+    color: red;
+}
