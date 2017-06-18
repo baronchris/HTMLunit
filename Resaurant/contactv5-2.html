@@ -18,6 +18,18 @@
                  #activelink{
                      color: purple;
                  }
+                  
+                 td{
+                text-align: center; 
+                padding-right: 25px;
+                padding-left:0
+            }
+             #checkday{
+                 text-align: center;
+                width: 50%;
+                margin-left: 31%;
+                margin-right:19%;
+            }
             </style>
         </head>
         <body>
@@ -49,28 +61,37 @@
                         <textarea style="background-color:lightgray">
                         </textarea><br/>
                         <br/>
-                        Have you been to the Restaurant? <input type="radio" name="no" value="no" checked/>No
-                        <input type="radio" name="yes" value="yes">Yes<br/>
+                        <p class="col-lg-12" >Have you been to the Restaurant?</p><br/>
+                        <input type="radio" name="no" value="no" checked/>No
+                        <input type="radio" name="yes" value="yes">Yes
                         <br/>
-                        <div class="table-responsive">
+                        <br/>
+                        <div id="checkday">
+                        <div class="table-responsive" style="text-align:center" >
                             <table class"tabel col-lg-2">
                                 <tr>
-                                    <th colspan="6">Best day to contact you?</th>
+                                    <th colspan="7" style="text-align: center">Best day to contact you?</th>
                                 </tr>
                                 <tr>
-                                    <td>M<input type="checkbox" name="m"></td>
-                                    <td>T<input type="checkbox" name="T"></td>
-                                    <td>W<input type="checkbox" name="W"></td>
-                                    <td>Th<input type="checkbox" name="Th"></td>
-                                    <td>F<input type="checkbox" name="F"></td>
-                                    <td>S<input type="checkbox" name="S"></td>
-
-
-
-
-                         M<input type="checkbox" name="m"> T<input type="checkbox" name="T">
-                        W<input type="checkbox" name="W"> Th<input type="checkbox" name="Th"> F<input type="checkbox" name="F">
-                        
+                                    <td class="col-lg-1"></td>
+                                    <td>Monday</td>
+                                    <td>Tuesday</td>
+                                    <td>Wednesday</td>
+                                    <td>Thursday</td>
+                                    <td>Friday</td>
+                                    <td class="col-lg-1"></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-lg-1"></td>
+                                    <td><input type="checkbox" name="m"></td>
+                                    <td><input type="checkbox" name="T"></td>
+                                    <td><input type="checkbox" name="W"></td>
+                                    <td><input type="checkbox" name="Th"></td>
+                                    <td><input type="checkbox" name="F"></td>
+                                    <td class="col-lg-1"></td>
+                                </tr>
+                            </table>
+                        </div>
                         </div>
                         <br/>
                         <br/>
