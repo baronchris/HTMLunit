@@ -40,14 +40,12 @@ a:active{
 hr{
     color: navy;
 }
-li
-{padding-left:10px;
-padding-right:10px; 
-margin-left: 10px;
-margin-right: 10px;
-}
+
 #activelink{
                      color: purple;
                  }
 #jumbotron{text-align: center;
 background-color: silver;}
+#nothome{
+    color: red;
+}
